@@ -1,0 +1,31 @@
+.j-flash-message {
+    position: fixed;
+    top: 100px;
+    right: -310px;
+    width: 300px;
+    min-height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
+    padding: 10px 20px;
+    z-index: 1000000;
+    box-shadow: 5px 3px 0 rgba(0, 0, 0, 0.15);
+
+    .j-flash-message__in {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 5px;
+    }
+
+    &_type_ok {
+        .j-flash-message__in {
+            background-color: #00aa00;
+        }
+    }
+    &_type_error {
+        .j-flash-message__in {
+            background-color: #aa0000;
+        }
+    }
+}

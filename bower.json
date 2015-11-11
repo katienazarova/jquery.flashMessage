@@ -1,0 +1,27 @@
+{
+  "name": "jquery.flashmessage",
+  "main": "jquery.flashMessage.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/katienazarova/jquery.flashMessage",
+  "authors": [
+    "Katie Nazarova <katienazarova@gmail.com>"
+  ],
+  "description": "jQuery flash message plugin",
+  "keywords": [
+    "jquery",
+    "flash message"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
+  "ignore": [
+    ".gitignore",
+    "bower.json",
+    "gulpfile.js",
+    "jquery.flashMessage.scss",
+    "package.json",
+    "node_modules",
+    "README.md"
+  ]
+}
